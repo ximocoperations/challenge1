@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aquamarine;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+   font-weight: lighter;
+}
+#title{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 50px;
+}
+#container{
+    width: 50%;
+   margin: 0 auto;
+    background-color: white;
+    border-radius: 3px;
+}
+input[type='text']{
+    width: 50%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+label{
+    font-size:20px;
+}
+#survey-form{
+    margin: 20px;
+}
+#footer{
+    width: 100vw;
+    height: 90px;
+}
+button{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: lightblue;
+    margin:0 auto;
+}
+#field1{
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+}
